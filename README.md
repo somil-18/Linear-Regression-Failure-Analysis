@@ -77,7 +77,7 @@ Linear-Regression-Analysis/
 
 This residual plot from the baseline Linear Regression model shows visible patterns in the residuals, suggesting that the model was not able to fully capture all relationships present in the dataset.
 
-![Baseline Residual Plot](images/baseline/residual_plot.png)
+![Baseline Residual Plot](images/baseline/residual%20plot.png)
 
 ---
 
@@ -85,7 +85,7 @@ This residual plot from the baseline Linear Regression model shows visible patte
 
 After applying Polynomial Regression, the residuals became more randomly scattered around zero, indicating that the model captured non-linear relationships more effectively.
 
-![Baseline Residual Plot](images/non-linearity/polynomial_regression_residual_plot.png)
+![Polynomial Residual Plot](images/non-linearity/polynomial%20regression%20residual%20plot.png)
 
 ---
 
@@ -93,7 +93,7 @@ After applying Polynomial Regression, the residuals became more randomly scatter
 
 This residual plot demonstrates heteroscedasticity, where the spread of residuals increases as predicted values increase, forming a funnel-shaped pattern.
 
-![Heteroscedasticity Funnel Plot](images/heteroscedasticity/Residual_Plot_(Heteroscedasticity).png)
+![Heteroscedasticity Funnel Plot](images/heteroscedasticity/Residual%20Plot%20%28Heteroscedasticity%29.png)
 ---
 
 # What This Project Covers
