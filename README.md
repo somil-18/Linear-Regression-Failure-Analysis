@@ -63,37 +63,13 @@ Linear-Regression-Analysis/
 
 | Notebook | Description |
 |---|---|
-| [01_understanding_dataset.ipynb](01_understanding_dataset.ipynb) | Dataset understanding and EDA |
-| [02_baseline_linear_regression.ipynb](02_baseline_linear_regression.ipynb) | Baseline Linear Regression |
-| [03_ols_vs_gradient_descent.ipynb](03_ols_vs_gradient_descent.ipynb) | OLS vs Gradient Descent |
-| [04_multicollinearity.ipynb](04_multicollinearity.ipynb) | Multicollinearity Analysis |
-| [05_polynomial_regression.ipynb](05_polynomial_regression.ipynb) | Polynomial Regression |
-| [06_heteroscedasticity.ipynb](06_heteroscedasticity.ipynb) | Heteroscedasticity and Log Transformation |
+| [01_understanding_dataset.ipynb](notebooks/1_data_understanding.ipynb) | Dataset understanding and EDA |
+| [02_baseline_linear_regression.ipynb](notebooks/2_baseline_linear_regression.ipynb) | Baseline Linear Regression |
+| [03_ols_vs_gradient_descent.ipynb](notebooks/3_ols_vs_gradient_descent.ipynb) | OLS vs Gradient Descent |
+| [04_multicollinearity_analysis.ipynb](notebooks/4_multicollinearity_analysis.ipynb) | Multicollinearity Analysis |
+| [05_polynomial_regression.ipynb](notebooks/5_polynomial_regression.ipynb) | Polynomial Regression |
+| [06_heteroscedasticity.ipynb](notebooks/6_heteroscedasticity.ipynb) | Heteroscedasticity and Log Transformation |
 
----
-# Important Visualizations
-
-## Baseline Linear Regression Residual Plot
-
-This residual plot from the baseline Linear Regression model shows visible patterns in the residuals, suggesting that the model was not able to fully capture all relationships present in the dataset.
-
-![Baseline Residual Plot](images/baseline/residual%20plot.png)
-
----
-
-## Residual Plot After Polynomial Regression
-
-After applying Polynomial Regression, the residuals became more randomly scattered around zero, indicating that the model captured non-linear relationships more effectively.
-
-![Polynomial Residual Plot](images/non-linearity/polynomial%20regression%20residual%20plot.png)
-
----
-
-## Heteroscedasticity Funnel Pattern
-
-This residual plot demonstrates heteroscedasticity, where the spread of residuals increases as predicted values increase, forming a funnel-shaped pattern.
-
-![Heteroscedasticity Funnel Plot](images/heteroscedasticity/Residual%20Plot%20%28Heteroscedasticity%29.png)
 ---
 
 # What This Project Covers
@@ -196,7 +172,7 @@ The project contains several analytical visualizations such as:
 ## Clone Repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/somil-18/Linear-Regression-Failure-Analysis/tree/master
 ```
 
 ## Install dependencies
